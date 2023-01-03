@@ -1,20 +1,22 @@
 #include <stdio.h>
-//#include <conio.h>
 #include <string.h>
-//this script created By Abdalrahman(0x80)
+/*
+if your OS is Windows Append To this Header 
+<conio.h> Header File
+*/
 int main(void){
   char buffer[15];
-  int A0x80=0;
+  int i = 0;
    printf("Enter Your String: ");
     gets(buffer);
       if(strcmp(buffer,"0x80")){
          printf("Successful");
   }else{
       printf("FALED");
-      A0x80=1;
+      i=1;
 
     } 
-if(A0x80){
+if(i){
   printf("You Are ROOT");
 
  }
